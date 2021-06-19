@@ -1,8 +1,8 @@
+import ViewContainer from "./components/containers/ViewContainer";
 
-
-function App() {
+const App = () => {
   return (
-      <h1>Hello React</h1>
+    <ViewContainer viewType={"L1"} />
   );
 }
 
