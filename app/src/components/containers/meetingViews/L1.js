@@ -132,13 +132,9 @@ class L1 extends React.PureComponent
 			return;
 
 		const availableWidth = root.clientWidth;
-		console.log("availableWidth: " + availableWidth);
-		console.log("availableHeight: " + root.clientHeight);
 
 		const availableSpeakerHeight = (root.clientHeight * 0.8)  -
 			(toolbarsVisible || permanentTopBar ? PADDING_V : 0);
-
-		console.log("availableSpeakerHeight: " + availableSpeakerHeight);	
 		
 
 		const availableL1Height = root.clientHeight;
@@ -164,9 +160,6 @@ class L1 extends React.PureComponent
 
 			newState.speakerWidth = speakerWidth;
 			newState.speakerHeight = speakerHeight;
-
-			console.log("speakerWidth: " + speakerWidth);	
-			console.log("speakerHeight: " + speakerHeight);	
 
 		}
 
